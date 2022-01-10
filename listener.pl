@@ -9,7 +9,7 @@ use IO::Socket::INET;
 $| = 1;
 
 my $listener = new IO::Socket::INET (Listen    => 1,
-                                     LocalAddr => '0.0.0.0',
+                                     LocalAddr => '127.0.0.1',
                                      LocalPort => '8888',
                                      Proto     => 'tcp');
 
