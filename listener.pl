@@ -10,7 +10,7 @@ $| = 1;
 
 my $listener = new IO::Socket::INET (Listen    => 1,
                                      LocalAddr => '0.0.0.0',
-                                     LocalPort => '1234',
+                                     LocalPort => '8888',
                                      Proto     => 'tcp');
 
 my $client_socket = $listener->accept();
